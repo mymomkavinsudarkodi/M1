@@ -1,0 +1,5 @@
+Modules Used:
+mysql.connector 
+streamlit
+pandas
+PIL -> Function Image is used
