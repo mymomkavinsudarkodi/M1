@@ -1,10 +1,10 @@
-import mysql.connector as mc
+import sqlite3
 import streamlit as st
 import pandas as pd
 from PIL import Image
 
 # Connect to the database
-mydb = mc.connect(host="localhost", user="root", password="K]es/Y,)#d=s7RH22&Q8", database="hosp_recs")
+mydb = sqlite3.connect(host="localhost", user="root", password="K]es/Y,)#d=s7RH22&Q8", database="hosp_recs")
 mycursor = mydb.cursor()
 print("Connect established")
 
